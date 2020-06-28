@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
-class User extends Component {
-  render() {
+function User() {
     return (
         <div className="container p-5">
             <div className="container mt-2">
@@ -43,7 +42,6 @@ class User extends Component {
                     </table>
     </div></div></div>
         )
-  }
 }
 
 export default User;

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
-class Myshop extends Component {
-  render() {
+function Myshop() {
     return (
         <div className="container p-5">
             <a href="/">Go to myshop</a>
@@ -49,7 +48,7 @@ class Myshop extends Component {
             </div>
         </div>
         )
-  }
 }
+
 
 export default Myshop;

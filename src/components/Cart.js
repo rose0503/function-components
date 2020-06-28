@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Cart extends Component {
-  render() {
+function Cart() {  
     return (
         <div className="container p-5">
             <div className="container">
@@ -16,7 +15,7 @@ class Cart extends Component {
             </div>
         </div>
         )
-  }
 }
+
 
 export default Cart;

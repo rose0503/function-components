@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./style/login.css";
 
-class Login extends Component {
-  render() {
+function Login(){  
     return (
         <div className="container p-5">
         <div className="container mt-2">
@@ -26,7 +25,7 @@ class Login extends Component {
         </div>
       </div>
     )
-  }
 }
+
 
 export default Login;

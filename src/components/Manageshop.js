@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
-class Manageshop extends Component {
-  render() {
+function Manageshop(){
     return (
       <div className="container p-5">
         <a href="/shops/manageShop/5eb70343df53d4dbe3e81c0a">Quản lý shop</a>
@@ -29,7 +28,7 @@ class Manageshop extends Component {
         </div>
 
         )
-  }
 }
+
 
 export default Manageshop;

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
-class Transaction extends Component {
-  render() {
+function Transaction() {
     return (
         <div className="container mt-2">
             <div className="d-flex justify-content-between">
@@ -42,7 +41,7 @@ class Transaction extends Component {
         </div>
 
         )
-  }
 }
+
 
 export default Transaction;
